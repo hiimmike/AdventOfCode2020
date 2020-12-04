@@ -17,6 +17,8 @@ def test(argument):
 				print(i)
 				print(x)
 				print(answer)
-				
+				return answer
+				return i
+				return x				
 
 test(get_list('day1.txt'))
